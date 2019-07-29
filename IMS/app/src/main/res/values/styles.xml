@@ -1,0 +1,13 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="android:divider">@drawable/divider</item>
+        <item name="android:dividerHeight">2px</item>
+
+    </style>
+
+</resources>

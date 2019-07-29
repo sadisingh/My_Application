@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_h1"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="Haridwar" />
+        <item
+            android:id="@+id/n1"
+            android:icon="@drawable/ic_cloud_circle_black_24dp"
+            android:title="Nainital" />
+        <item
+            android:id="@+id/s1"
+            android:icon="@drawable/ic_cloud_done_black_24dp"
+            android:title="Shimla" />
+        <item
+            android:id="@+id/u1"
+            android:icon="@drawable/ic_cloud_download_black_24dp"
+            android:title="Uttarakhand" />
+
+    <item
+        android:id="@+id/h2"
+        android:icon="@drawable/ic_cloud_queue_black_24dp"
+        android:title="Himachal pradesh"/>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

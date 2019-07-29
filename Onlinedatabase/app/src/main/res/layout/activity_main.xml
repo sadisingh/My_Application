@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userid"
+        android:singleLine="true"
+        android:hint="ID"
+        android:textColor="#000000"
+        android:textColorHint="#000000"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:singleLine="true"
+            android:hint="name"
+            android:textColor="#000000"
+            android:textColorHint="#000000"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add"
+            android:singleLine="true"
+            android:hint="Address"
+            android:textColor="#000000"
+            android:textColorHint="#000000"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/qua"
+            android:singleLine="true"
+            android:hint="qualification"
+            android:textColor="#000000"
+            android:textColorHint="#000000"></EditText>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/con"
+            android:singleLine="true"
+            android:hint="contact"
+            android:textColor="#000000"
+            android:textColorHint="#000000"></EditText>
+
+
+    <Button
+
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:id="@+id/register"></Button>
+</LinearLayout>

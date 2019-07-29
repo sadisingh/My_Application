@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign">
+
+    <!-- TODO: Update blank fragment layout -->
+  <EditText
+      android:layout_width="290dp"
+      android:layout_height="wrap_content"
+      android:id="@+id/e1"
+      android:text="ID"
+      android:layout_marginLeft="56dp"/>
+
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/e2"
+        android:layout_marginLeft="56dp"
+        android:text="password"
+        android:layout_below="@+id/e1"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="create"
+        android:layout_marginLeft="56dp"
+        android:id="@+id/b0"
+        android:layout_below="@+id/e2"
+        android:layout_marginTop="89dp"/>
+    </FrameLayout>

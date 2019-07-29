@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/search_ll_header"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.1"
+        android:background="@color/grey"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="visible"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text=" Result Student "
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_ll_searchOption"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/search_tv_regitration"
+            android:layout_width="wrap_content"
+            android:text="Registration ID"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/search_tv_registrationNO"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/search_tv_name"
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/search_edt_name"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/search_tv_fatherName"
+            android:layout_width="wrap_content"
+            android:text="Father Name"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/search_edt_fatherName"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/search_tv_address"
+            android:layout_width="wrap_content"
+            android:text="Address"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/search_edt_address"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/search_tv_mobileno"
+            android:layout_width="wrap_content"
+            android:text="Mobile No"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/search_edt_mobile"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/search_tv_course"
+            android:layout_width="wrap_content"
+            android:text="Course"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/search_edt_course"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/search_ll_editOption"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:padding="10dp"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/search_tv_serchByregId"
+            android:layout_width="wrap_content"
+            android:text="Enter your Registration ID"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/search_edt_serchRegitration"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/search_btn_search"
+                android:layout_width="0dp"
+                android:text="Search"
+                android:textSize="20dp"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/search_btn_allStudent"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="All Student"
+                android:textSize="20dp"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/search_ll_bottom"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/grey"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="visible"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/search_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="Back"
+            android:onClick="onClick"
+            android:layout_marginRight="3dp"
+            android:clickable="true"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/search_btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:text="Delete"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/search_btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_marginLeft="3dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

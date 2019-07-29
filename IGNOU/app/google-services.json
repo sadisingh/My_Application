@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "409431414470",
+    "firebase_url": "https://abcde-187806.firebaseio.com",
+    "project_id": "abcde-187806",
+    "storage_bucket": "abcde-187806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409431414470:android:019154d26068add6",
+        "android_client_info": {
+          "package_name": "com.bhatt.vishal.addmobiles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409431414470-qg25tqn2gpudf7t78kvimv6mh33k2m2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7ZN1HvXnVUjRF3QRh_kCEhFUcQNJMvFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409431414470:android:14b73f76cebeb686",
+        "android_client_info": {
+          "package_name": "com.bhatt.vishal.gmailintrigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409431414470-79t7j4ig4ra7akqmqi839m7hsirenrjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bhatt.vishal.gmailintrigation",
+            "certificate_hash": "7f0fe9eadf3947a2f0ac3d4d581022084c8018b6"
+          }
+        },
+        {
+          "client_id": "409431414470-qg25tqn2gpudf7t78kvimv6mh33k2m2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7ZN1HvXnVUjRF3QRh_kCEhFUcQNJMvFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409431414470:android:cfdc8dc8e3ed2fca",
+        "android_client_info": {
+          "package_name": "com.bhatt.vishal.ignou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409431414470-qg25tqn2gpudf7t78kvimv6mh33k2m2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7ZN1HvXnVUjRF3QRh_kCEhFUcQNJMvFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409431414470:android:832d759067a755d8",
+        "android_client_info": {
+          "package_name": "com.bhatt.vishal.phoneotp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409431414470-qg25tqn2gpudf7t78kvimv6mh33k2m2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7ZN1HvXnVUjRF3QRh_kCEhFUcQNJMvFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409431414470:android:9b9aeb3f1bac6e16",
+        "android_client_info": {
+          "package_name": "com.bhatt.vishal.remoteconfig1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409431414470-h7tr3ubqlp6as1q82majqggp21os9fb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bhatt.vishal.remoteconfig1",
+            "certificate_hash": "7f0fe9eadf3947a2f0ac3d4d581022084c8018b6"
+          }
+        },
+        {
+          "client_id": "409431414470-qg25tqn2gpudf7t78kvimv6mh33k2m2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7ZN1HvXnVUjRF3QRh_kCEhFUcQNJMvFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409431414470-bq7085qcg1ru0rtbbbb7d4n0h6lj224i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

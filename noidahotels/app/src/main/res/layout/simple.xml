@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:id="@+id/img1"
+        android:background="@mipmap/ic_launcher_round"/>
+  <Button
+      android:layout_width="150dp"
+      android:layout_height="100dp"
+      android:layout_below="@+id/img1"
+      android:id="@+id/but"
+      android:text="Call us"/>
+</RelativeLayout>

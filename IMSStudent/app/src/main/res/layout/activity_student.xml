@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/real"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="0.1"
+        android:background="#42424c"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/blue"
+            android:text="New Student Registration"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_ll_new"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.46"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/add_tv_name"
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/add_edt_name"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/add_tv_fatherName"
+            android:layout_width="wrap_content"
+            android:text="Father Name"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/add_edt_fatherName"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/add_tv_address"
+            android:layout_width="wrap_content"
+            android:text="Address"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/add_edt_address"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/add_tv_mobileno"
+
+            android:layout_width="wrap_content"
+            android:text="Mobile No"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/add_edt_mobile"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/add_tv_course"
+            android:layout_width="wrap_content"
+            android:text="Course"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/add_sp_course"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:entries="@array/course"
+            android:background="@android:color/white"
+            android:layout_height="50dp">
+
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_ll_reg"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.8"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/real"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/add_tv_hiname"
+            android:layout_width="wrap_content"
+            android:text="Hi Amol"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/add_tv_sucessfull"
+            android:layout_width="wrap_content"
+            android:text="Your Admission is successFull........"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/add_tv_regitration"
+            android:layout_width="wrap_content"
+            android:text="Registation id: 1"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/add_btn_ok"
+            android:layout_width="wrap_content"
+            android:text="Ok"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textColor="@color/blue"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_ll_bottom"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.1"
+        android:background="#42424c"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="visible"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/add_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="50dp"
+            android:text="Cancel"
+            android:textColor="@color/blue"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/add_btn_submit"
+            android:layout_width="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/blue"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

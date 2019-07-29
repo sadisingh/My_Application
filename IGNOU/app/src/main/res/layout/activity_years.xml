@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bhatt.vishal.ignou.Years">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="170dp">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="170dp"
+               android:id="@+id/imganimation"
+               android:background="@drawable/animat"/>
+       </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="BCA"
+        android:id="@+id/bca"
+        android:textSize="30dp"
+        android:layout_height="55dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="MCA"
+        android:textSize="30dp"
+        android:id="@+id/mca"
+        android:layout_height="55dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="BBA"
+        android:textSize="30dp"
+        android:id="@+id/bba"
+        android:layout_height="55dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="MBA"
+        android:textSize="30dp"
+        android:id="@+id/mba"
+        android:layout_height="55dp" />
+
+</LinearLayout>
+</LinearLayout>

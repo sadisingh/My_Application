@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ig"
+        android:duration="1500">
+
+    </item>
+
+    <item android:drawable="@drawable/ig2"
+        android:duration="1500"></item>
+    <item android:drawable="@drawable/ig3"
+        android:duration="1500"></item>
+
+    <item android:drawable="@drawable/ig5"
+        android:duration="1500"></item>
+
+    <item android:drawable="@drawable/ig6"
+        android:duration="1500"></item>
+
+    <item android:drawable="@drawable/ig7"
+        android:duration="1500"></item>
+
+
+</animation-list>

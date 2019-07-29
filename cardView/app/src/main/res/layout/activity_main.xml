@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<android.support.v7.Widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher"
+        android:layout_centreHorizontal="true"
+        android:id="@+id/im1"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e1"
+        android:text="ID"
+       android:textStyle="bold"
+        android:layout_below="@+id/im1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:background="#abcdes "
+        android:textSize="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e2"
+        android:text="passwaord"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/e1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:background="#adsgfd"
+        android:textStyle="bold"
+        android:id="@+id/b1"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/e2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ftpass"
+        android:layout_below="@+id/b1"
+        android:layout_marginLeft="30dp"/>
+
+</RelativeLayout>
+</android.support.v7.Widget.CardView>
+
+
+
+</RelativeLayout>
+

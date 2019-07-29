@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.cinema">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logopvr"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Second"
+            android:label="@string/title_activity_second"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Imageone" />
+        <activity android:name=".Sanjuimage" />
+        <activity android:name=".Raceimage" />
+        <activity android:name=".Incrediblesimage" />
+        <activity android:name=".Oceansimage" />
+        <activity android:name=".Jurassicimage" />
+        <activity android:name=".Womenimage" />
+        <activity android:name=".Moviecationimage" />
+        <activity android:name=".Hereditaryimage" />
+        <activity android:name=".Sanjubook" />
+        <activity android:name=".Confirm"></activity>
+    </application>
+
+</manifest>

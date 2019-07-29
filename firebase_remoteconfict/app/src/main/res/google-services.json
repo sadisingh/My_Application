@@ -1,0 +1,41 @@
+
+{
+  "project_info": {
+    "project_number": "894640807501",
+    "firebase_url": "https://fir-remote-749ea.firebaseio.com",
+    "project_id": "fir-remote-749ea",
+    "storage_bucket": "fir-remote-749ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894640807501:android:f82cbfb35f70e567",
+        "android_client_info": {
+          "package_name": "com.example.sairam.firebase_remoteconfict"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894640807501-blk1t60q70garap6ovfgvuksag2565su.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARIWHWuvWZJTcokI9CisiNSQYkh2jrVWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894640807501-blk1t60q70garap6ovfgvuksag2565su.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

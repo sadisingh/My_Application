@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+         android:orientation="vertical"
+        android:layout_height="match_parent">
+
+      <TextView
+       android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Haridwar"
+        android:textSize="30dp"
+        android:id="@+id/h1"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Nainital"
+            android:id="@+id/n1"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/h1"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shimla"
+            android:id="@+id/s1"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:layout_below="@+id/n1"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uttarakhand"
+            android:id="@+id/u1"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:layout_below="@+id/s1"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Himachal pradesh"
+            android:id="@+id/h2"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:layout_below="@+id/u1"
+            android:textStyle="bold"/>
+
+
+</LinearLayout>
+    </RelativeLayout>

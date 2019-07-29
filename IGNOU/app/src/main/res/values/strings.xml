@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">IGNOU</string>
+    <string name="userName_required">please enter proper Name</string>
+    <string name="userLast_required">please enter proper Last Name</string>
+    <string name="address_required">please enter proper Address</string>
+    <string name="phone_required">please enter 10 digit Contact</string>
+    <string name="company_required">please enter proper College name</string>
+    <string name="bio_required">please enter proper Biography</string>
+    <string name="spls">Splash</string>
+    <string name="sp11">Registration</string>
+    <string name="sp1">Registration</string>
+    <string name="sp12">Programe</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome To IGNOU!</string>
+    <string name="slide_1_desc">Welcome to your Ignou Page.Thank you...!</string>
+
+    <string name="slide_2_title">Admin Login</string>
+    <string name="slide_2_desc">Admin Login Page and see Details and Register,Update,Delete form of any Student !</string>
+
+    <string name="slide_3_title">Register Form</string>
+    <string name="slide_3_desc">Open A Form and Admin Fill the Form of Student!</string>
+
+    <string name="slide_4_title">Multiple Registration</string>
+    <string name="slide_4_desc">Register Multiple Student for any Programe!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="err_msg_name">Please enter Valid Name</string>
+    <string name="err_msg_required">Valid Input Required</string>
+    <string name="err_msg_email">Please enter a Valid Name</string>
+    <string name="err_msg_password">Enter correct Password</string>
+</resources>
+
+
+

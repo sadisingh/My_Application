@@ -1,0 +1,154 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhatt.vishal.ignou.RegFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#e2e2df"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:background="@color/button_selectorcolor"
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true">
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="REGISTRATION"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dp"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="550dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:singleLine="true"
+                    android:hint="First name"
+                    android:launchMode="singleTop"
+                    android:textColorHint="@color/black"
+                    android:textColor="#000000"
+                    android:background="#f3f3f3"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/usereditt" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:hint="Last name"
+                    android:textColorHint="@color/black"
+                    android:textColor="#000000"
+                    android:singleLine="true"
+                    android:background="#f3f3f3"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/userpasss" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:hint="Address"
+                    android:textColorHint="@color/black"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:background="#f3f3f3"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/useradd" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:singleLine="true"
+                    android:hint="phone"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:textColorHint="@color/black"
+                    android:textColor="#000000"
+                    android:background="#f3f3f3"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/userphone" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:hint="College Name"
+                    android:textColorHint="@color/black"
+                    android:background="#f3f3f3"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/compny" />
+
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="#000000"
+                    android:singleLine="true"
+                    android:hint="Bio "
+                    android:background="#f3f3f3"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/bio"/>
+
+                <Button android:layout_width="190dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:text="submit"
+                    android:textColor="#fff"
+                    android:textSize="13dp"
+                    android:background="@color/button_selectorcolor"
+                    android:id="@+id/submit" />
+                <Button android:layout_width="190dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:text="Student Detail"
+                    android:textColor="#fff"
+                    android:textSize="13dp"
+                    android:background="@color/button_selectorcolor"
+                    android:id="@+id/studentDetails" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
